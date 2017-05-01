@@ -1,0 +1,21 @@
+﻿<div class="row">
+    <form role="form"  ng-controller="odjeliController" name="addodjeliform" class="form-inline">
+        <div class="form-group">
+            <input type="text" class="form-control" id="Naziv" ng-model="Naziv" placeholder="Naziv" />
+        </div>
+        <div ng-switch="error">
+
+            <!--No errors-->
+
+            <!--Errors-->
+            <div ng-switch-when="true">
+                <h2>Greška!</h2>
+                <p>{{errorMessage}}</p>
+            </div>
+
+        </div>
+        <button type="submit" class="btn btn-default" ng-click="addOdjel()">Kreiraj</button>
+    </form>
+</div>
+<br />
+

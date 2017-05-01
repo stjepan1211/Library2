@@ -1,0 +1,38 @@
+﻿<div ng-controller="registriranikorisniciController" ng-init="getAllRegisteredUsers()">
+    
+    <br /><br />
+    <div ng-switch="error">
+
+        <!--No errors-->
+        <div ng-switch-when="false">
+            <table class="table table-responsive table-striped">
+                <tr>
+                    <th>Ime</th>
+                    <th>Prezime</th>
+                    <th>Email</th>
+                    <th>Uloga</th>
+                    <th>Zakasnina</th>
+                </tr>
+                <tr ng-repeat="user in allUsers">
+                    <td>{{user.Ime}}</td>
+                    <td>{{user.Prezime}}</td>
+                    <td>{{user.Email}}</td>
+                    <td>{{user.Uloga}}</td>
+                    <td>{{user.Zakasnina}}</td>
+                </tr>
+
+            </table>
+        </div>
+        
+        <!--Errors-->
+        <div ng-switch-when="true">
+            <h2>Greška!</h2>
+            <p>{{errorMessage}}</p>
+        </div>
+
+    </div>
+
+    
+
+
+</div>

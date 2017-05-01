@@ -1,0 +1,53 @@
+﻿<div ng-controller="popisknjigaController">
+
+    <!--Add new knjiga-->
+    <div ng-show="isAdminAndLogged && isKnjiznicaAdded" class="row">
+        <br />
+        <div class="col-md-offset-0">
+            <a class="btn btn-sm btn-success" ui-sref="popisknjiga.add">Dodaj</a>
+
+            <div ui-view="root" class="col-md-4"></div>
+        </div>
+    </div>
+
+    <div ng-switch="error">
+
+        <!--No errors-->
+        <div ng-switch-when="false">
+            <div class="row">
+                <div class="col-md-9">
+                    <table class="table table-responsive table-striped">
+                        <tr>
+                            <th>Naslov</th>
+                            <th>Autor</th>
+                            <th>Ukupan broj</th>
+                            <th ng-show="isAdminAndLogged">Uredi</th>
+                            <th ng-show="isAdminAndLogged">Obriši</th>
+                        </tr>
+                        <tr ng-repeat="knjiga in knjige">
+                            <td>{{knjiga.Naslov}}</td>
+                            <td>{{knjiga.Autor}}</td>
+                            <td>{{knjiga.UkupanBroj}}</td>
+                            <td ng-show="isAdminAndLogged"><a class="btn btn-sm btn-default"  ui-sref="popisknjiga.edit({Id: knjiga.ID})">Uredi</a></td>
+                            <td ng-show="isAdminAndLogged"><a class="btn btn-sm btn-default" ng-click="obrisiknjigu(knjiga.ID)">Obriši</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-3" ui-view="popisknjiga.edit">
+
+                </div>
+            </div>
+            
+        </div>
+
+        <!--Errors-->
+        <div ng-switch-when="true">
+            <h2>Greška!</h2>
+            <p>{{errorMessage}}</p>
+        </div>
+
+    </div>
+
+    
+
+</div>

@@ -1,0 +1,58 @@
+﻿<div ng-controller="odjeliController">
+
+
+    <!--Add new odjel-->
+    <div ng-show="isAdminAndLogged && isKnjiznicaAdded" class="row">
+        <br />
+        <div class="col-md-offset-0">
+            <a class="btn btn-sm btn-success" ui-sref="odjeli.add">Dodaj</a>
+
+            <br /><br />
+            <div ui-view="root" class="col-md-4"></div>
+            <br /><br />
+        </div>
+    </div>
+
+    <div ng-switch on="error">
+        <div class="row">
+            <div class="col-lg-9">
+                <!--No errors-->
+                <div ng-switch-when="false">
+                    <table class="table table-responsive table-striped">
+                        <tr>
+                            <th>Naziv</th>
+                            <th>Broj knjiga</th>
+                            <th>Uredi</th>
+                            <th>Obriši</th>
+                        </tr>
+                        <tr ng-repeat="odjel in odjeli">
+                            <td><a class="btn-link" ui-sref="odjeli.knjige({Id: odjel.ID})">{{odjel.Naziv}}</a></td>
+                            <td>{{odjel.UkupanBroj}}</td>
+                            <td ng-show="isAdminAndLogged && isKnjiznicaAdded"><a class="btn btn-sm btn-default" ui-sref="odjeli.edit({Id: odjel.ID})">Uredi</a></td>
+                            <td ng-show="isAdminAndLogged && isKnjiznicaAdded"><a class="btn btn-sm btn-default" ng-click="obrisiodjel(odjel.ID)">Obriši</a></td>
+                        </tr>
+                    </table>
+
+                    <!--Books-->
+                    <div ui-view="books" class="container">
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3" ui-view="odjeli.edit">
+
+            </div>
+        </div>
+        <!--Errors-->
+        <div ng-switch-when="true">
+            <h2>Greška!</h2>
+            <p>{{errorMessage}}</p>
+        </div>
+
+    </div>
+
+
+
+
+</div>

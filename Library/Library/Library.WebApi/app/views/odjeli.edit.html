@@ -1,0 +1,12 @@
+﻿<div ng-controller="odjeliController">
+    <form role="form" name="urediodjeliform">
+        <div class="form-group">
+            <label for="NazivEdit">Naziv:</label>
+            <input class="form-control" type="text" id="NazivEdit" ng-model="NazivEdit" />
+            <div ng-show="erorrEdit">
+                <h6 style="color:red">Neispravan naziv.</h6>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-default" ng-click="urediOdjel()">Uredi</button>
+    </form>
+</div>

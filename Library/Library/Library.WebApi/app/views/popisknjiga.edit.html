@@ -1,0 +1,26 @@
+﻿<div ng-controller="popisknjigaController">
+    <form role="form" name="uredipopisknjigaform">
+        <div class="form-group">
+            <label for="NaslovEdit">Naslov:</label>
+            <input class="form-control" type="text" id="NaslovEdit" ng-model="NaslovEdit" />
+        </div>
+        <div class="form-group">
+            <label for="AutorEdit">Autor:</label>
+            <input class="form-control" type="text" id="AutorEdit" ng-model="AutorEdit" />
+        </div>
+        <div class="form-group">
+            <label for="UkupanBrojEdit">Ukupan broj:</label>
+            <input class="form-control" type="number"  id="UkupanBrojEdit" ng-model="UkupanBrojEdit" />
+        </div>
+        <div class="form-group">
+            <label for="OdjelEdit">Odjel:</label>
+            <select class="col-lg-6 selectpicker dropdown form-control" id="OdjelEdit" data-style="btn-primary" ng-model="OdjelEdit" ng-options="item as item.Naziv for item in odjeli"></select>
+        </div>
+        <div class="form-group">
+            <div ng-show="erorrEdit">
+                <h6 style="color:red">Neispravan unos.</h6>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-default" ng-click="urediPopisKnjiga()">Uredi</button>
+    </form>
+</div>

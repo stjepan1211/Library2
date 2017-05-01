@@ -1,0 +1,14 @@
+﻿<br>
+<br />
+<br />
+
+<div ng-controller="knjiznicaController">
+    <form role="form" name="urediknjiznicaform">
+        <h3>Obriši knjižnicu</h3>
+        <br />
+        <div class="form-group">
+            <b>{{knjiznica[0].Naziv}}</b>
+        </div>
+        <button type="submit" class="btn btn-danger" ng-click="obrisiknjiznica(knjiznica[0].Id)">Obriši</button>
+    </form>
+</div>

@@ -1,0 +1,32 @@
+﻿<div ng-controller="knjiznicaController">
+    <br />
+
+    <!--Naziv knjižnice-->
+    <div ng-show="isKnjiznicaAdded">
+        <h1>Dobrodošli u knjižnicu: {{knjiznica[0].Naziv}}</h1>
+    </div>
+    <!--Naziv knjižnice-->
+
+    <!--Admin opcije-->
+    <br />
+    <div class="container row">
+        <div class="text-center list-inline col-md-offset-8" ng-show="isAdminAndLogged" >
+            <a ng-show="!isKnjiznicaAdded" class="btn btn-md btn-success" ui-sref="knjiznica.add">Dodaj</a>
+            <a ng-show="isKnjiznicaAdded" class="btn btn-md btn-success" ui-sref="knjiznica.edit">Uredi</a>
+            <a ng-show="isKnjiznicaAdded" class="btn btn-md btn-success" ui-sref="knjiznica.delete">Obrisi</a>
+
+            <br /><br />
+            <div ui-view="root"></div>
+        </div>
+    </div>
+
+    <!--Admin opcije-->
+
+
+
+    <!--Templates-->
+
+  
+
+</div>
+

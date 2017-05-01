@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+            <div class="navbar-collapse collapse" ng-controller="prijavaController">
+                <ul class="nav navbar-nav">
+                    <li><a ui-sref="knjiznica">Knjižnica</a></li>
+                    <li><a ui-sref="odjeli">Odjeli</a></li>
+                    <li><a ui-sref="popisknjiga">Popis knjiga</a></li>
+                    <li><a ng-show="prijavljen && isAdmin" ui-sref="registriranikorisnici">Registrirani korisnici</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li ng-show="!prijavljen"><a ui-sref="registracija"><span class="glyphicon glyphicon-user"></span>Registracija</a></li>
+                    <li ng-show="!prijavljen"><a ui-sref="prijava"><span class="glyphicon glyphicon-log-in"></span>Prijava</a></li>
+                    <li ng-show="prijavljen"><a ng-click="Check();LogOut()" ui-sref="knjiznica"><span class="glyphicon glyphicon-log-in"></span>Odjava</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container" ui-view="root">
+
+</div>
