@@ -1,0 +1,156 @@
+E:\Visual studio projekti\Library\Library\Library.WebApi\obj\Debug\Library.WebApi.csprojResolveAssemblyReference.cache
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\ApplicationInsights.config
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\roslyn\csc.exe
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\roslyn\System.Collections.Immutable.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\roslyn\System.Reflection.Metadata.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\roslyn\vbc.exe
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\roslyn\VBCSCompiler.exe
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\roslyn\VBCSCompiler.exe.config
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Library.WebApi.dll.config
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Library.WebApi.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Library.WebApi.pdb
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Antlr3.Runtime.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\DependencyResolver.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Library.DAL.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Library.Service.Common.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Microsoft.AI.DependencyCollector.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Microsoft.AI.Web.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Microsoft.AI.WindowsServer.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Microsoft.ApplicationInsights.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Microsoft.Web.Infrastructure.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Newtonsoft.Json.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Ninject.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Ninject.Web.Common.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Ninject.Web.WebApi.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\System.Net.Http.Formatting.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\System.Web.Helpers.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\System.Web.Http.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\System.Web.Http.WebHost.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\System.Web.Mvc.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\System.Web.Optimization.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\System.Web.Razor.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\System.Web.WebPages.Deployment.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\System.Web.WebPages.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\System.Web.WebPages.Razor.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\WebActivatorEx.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\WebGrease.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Library.Service.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Library.DAL.Common.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\DependencyResolver.pdb
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Library.DAL.pdb
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Library.Service.Common.pdb
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Microsoft.AI.DependencyCollector.xml
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Microsoft.AI.Web.xml
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Microsoft.AI.WindowsServer.xml
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Microsoft.ApplicationInsights.xml
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Ninject.xml
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Ninject.Web.Common.xml
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Ninject.Web.WebApi.xml
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Newtonsoft.Json.xml
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\System.Net.Http.Formatting.xml
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\System.Web.Helpers.xml
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\System.Web.Http.xml
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\System.Web.Http.WebHost.xml
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\System.Web.Mvc.xml
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\System.Web.Optimization.xml
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\System.Web.Razor.xml
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\System.Web.WebPages.xml
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\System.Web.WebPages.Deployment.xml
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\System.Web.WebPages.Razor.xml
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Antlr3.Runtime.pdb
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Library.Service.pdb
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Library.DAL.Common.pdb
+E:\Visual studio projekti\Library\Library\Library.WebApi\obj\Debug\Library.WebApi.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\obj\Debug\Library.WebApi.pdb
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Library.Token.dll
+E:\Visual studio projekti\Library\Library\Library.WebApi\bin\Library.Token.pdb
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\ApplicationInsights.config
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\roslyn\csc.exe
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\roslyn\vbc.exe
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Library.WebApi.dll.config
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Library.WebApi.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Library.WebApi.pdb
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Antlr3.Runtime.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\DependencyResolver.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Library.DAL.Common.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Library.DAL.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Library.Service.Common.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Library.Token.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Microsoft.AI.Web.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Newtonsoft.Json.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Ninject.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Ninject.Web.Common.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Ninject.Web.WebApi.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\System.Net.Http.Formatting.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\System.Web.Helpers.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\System.Web.Http.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\System.Web.Http.WebHost.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\System.Web.Mvc.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\System.Web.Optimization.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\System.Web.Razor.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\System.Web.WebPages.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\WebActivatorEx.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\WebGrease.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Library.Service.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\DependencyResolver.pdb
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Library.DAL.Common.pdb
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Library.DAL.pdb
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Library.Service.Common.pdb
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Library.Token.pdb
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Microsoft.AI.Web.xml
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Ninject.xml
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Ninject.Web.Common.xml
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Ninject.Web.WebApi.xml
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Newtonsoft.Json.xml
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\System.Net.Http.Formatting.xml
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\System.Web.Helpers.xml
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\System.Web.Http.xml
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\System.Web.Http.WebHost.xml
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\System.Web.Mvc.xml
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\System.Web.Optimization.xml
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\System.Web.Razor.xml
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\System.Web.WebPages.xml
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Antlr3.Runtime.pdb
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\bin\Library.Service.pdb
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\obj\Debug\Library.WebApi.csprojResolveAssemblyReference.cache
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\obj\Debug\Library.WebApi.dll
+C:\Users\stjep\Desktop\Library-cbe038a262fcbd0419cd808c6e1aa5a76633e35b\Library\Library.WebApi\obj\Debug\Library.WebApi.pdb

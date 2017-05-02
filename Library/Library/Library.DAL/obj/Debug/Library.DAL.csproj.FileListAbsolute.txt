@@ -1,0 +1,12 @@
+E:\Visual studio projekti\Library\Library\Library.DAL\bin\Debug\Library.DAL.dll.config
+E:\Visual studio projekti\Library\Library\Library.DAL\bin\Debug\Library.DAL.dll
+E:\Visual studio projekti\Library\Library\Library.DAL\bin\Debug\Library.DAL.pdb
+E:\Visual studio projekti\Library\Library\Library.DAL\bin\Debug\EntityFramework.dll
+E:\Visual studio projekti\Library\Library\Library.DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Visual studio projekti\Library\Library\Library.DAL\bin\Debug\Library.DAL.Common.dll
+E:\Visual studio projekti\Library\Library\Library.DAL\bin\Debug\Library.DAL.Common.pdb
+E:\Visual studio projekti\Library\Library\Library.DAL\bin\Debug\EntityFramework.xml
+E:\Visual studio projekti\Library\Library\Library.DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Visual studio projekti\Library\Library\Library.DAL\obj\Debug\Library.DAL.csprojResolveAssemblyReference.cache
+E:\Visual studio projekti\Library\Library\Library.DAL\obj\Debug\Library.DAL.dll
+E:\Visual studio projekti\Library\Library\Library.DAL\obj\Debug\Library.DAL.pdb

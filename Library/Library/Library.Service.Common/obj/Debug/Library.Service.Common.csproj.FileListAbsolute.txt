@@ -1,0 +1,11 @@
+E:\Visual studio projekti\Library\Library\Library.Service.Common\bin\Debug\Library.Service.Common.dll
+E:\Visual studio projekti\Library\Library\Library.Service.Common\bin\Debug\Library.Service.Common.pdb
+E:\Visual studio projekti\Library\Library\Library.Service.Common\bin\Debug\Library.DAL.dll
+E:\Visual studio projekti\Library\Library\Library.Service.Common\bin\Debug\EntityFramework.dll
+E:\Visual studio projekti\Library\Library\Library.Service.Common\bin\Debug\Library.DAL.Common.dll
+E:\Visual studio projekti\Library\Library\Library.Service.Common\bin\Debug\Library.DAL.pdb
+E:\Visual studio projekti\Library\Library\Library.Service.Common\bin\Debug\EntityFramework.xml
+E:\Visual studio projekti\Library\Library\Library.Service.Common\bin\Debug\Library.DAL.Common.pdb
+E:\Visual studio projekti\Library\Library\Library.Service.Common\obj\Debug\Library.Service.Common.csprojResolveAssemblyReference.cache
+E:\Visual studio projekti\Library\Library\Library.Service.Common\obj\Debug\Library.Service.Common.dll
+E:\Visual studio projekti\Library\Library\Library.Service.Common\obj\Debug\Library.Service.Common.pdb

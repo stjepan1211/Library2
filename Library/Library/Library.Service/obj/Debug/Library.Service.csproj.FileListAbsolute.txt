@@ -1,0 +1,16 @@
+E:\Visual studio projekti\Library\Library\Library.Service\bin\Debug\Library.Service.dll.config
+E:\Visual studio projekti\Library\Library\Library.Service\bin\Debug\Library.Service.dll
+E:\Visual studio projekti\Library\Library\Library.Service\bin\Debug\Library.Service.pdb
+E:\Visual studio projekti\Library\Library\Library.Service\bin\Debug\EntityFramework.dll
+E:\Visual studio projekti\Library\Library\Library.Service\bin\Debug\EntityFramework.SqlServer.dll
+E:\Visual studio projekti\Library\Library\Library.Service\bin\Debug\Library.DAL.Common.dll
+E:\Visual studio projekti\Library\Library\Library.Service\bin\Debug\Library.DAL.dll
+E:\Visual studio projekti\Library\Library\Library.Service\bin\Debug\Library.Service.Common.dll
+E:\Visual studio projekti\Library\Library\Library.Service\bin\Debug\Library.DAL.Common.pdb
+E:\Visual studio projekti\Library\Library\Library.Service\bin\Debug\Library.DAL.pdb
+E:\Visual studio projekti\Library\Library\Library.Service\bin\Debug\Library.Service.Common.pdb
+E:\Visual studio projekti\Library\Library\Library.Service\bin\Debug\EntityFramework.xml
+E:\Visual studio projekti\Library\Library\Library.Service\bin\Debug\EntityFramework.SqlServer.xml
+E:\Visual studio projekti\Library\Library\Library.Service\obj\Debug\Library.Service.csprojResolveAssemblyReference.cache
+E:\Visual studio projekti\Library\Library\Library.Service\obj\Debug\Library.Service.dll
+E:\Visual studio projekti\Library\Library\Library.Service\obj\Debug\Library.Service.pdb
