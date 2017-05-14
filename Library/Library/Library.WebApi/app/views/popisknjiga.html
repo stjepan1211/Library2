@@ -16,15 +16,32 @@
         <div ng-switch-when="false">
             <div class="row">
                 <div class="col-md-9">
+
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label>Pretraži:</label>
+                            <input type="text" ng-model="search" class="form-control" placeholder="Pretraži">
+                        </div>
+                    </form>
+
                     <table class="table table-responsive table-striped">
                         <tr>
-                            <th>Naslov</th>
-                            <th>Autor</th>
-                            <th>Ukupan broj</th>
+                            <th ng-click="sort('Naslov')">
+                            Naslov
+                                <span class="glyphicon sort-icon" ng-show="sortKey=='Naslov'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+                            </th>
+                            <th ng-click="sort('Autor')">
+                            Autor
+                                <span class="glyphicon sort-icon" ng-show="sortKey=='Autor'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+                            </th>
+                            <th ng-click="sort('UkupanBroj')">
+                            Ukupan broj
+                                <span class="glyphicon sort-icon" ng-show="sortKey=='UkupanBroj'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+                            </th>
                             <th ng-show="isAdminAndLogged">Uredi</th>
                             <th ng-show="isAdminAndLogged">Obriši</th>
                         </tr>
-                        <tr ng-repeat="knjiga in knjige">
+                        <tr dir-paginate="knjiga in knjige|orderBy:sortKey:reverse|filter:search|itemsPerPage:10">
                             <td>{{knjiga.Naslov}}</td>
                             <td>{{knjiga.Autor}}</td>
                             <td>{{knjiga.UkupanBroj}}</td>
@@ -32,6 +49,12 @@
                             <td ng-show="isAdminAndLogged"><a class="btn btn-sm btn-default" ng-click="obrisiknjigu(knjiga.ID)">Obriši</a></td>
                         </tr>
                     </table>
+
+                    <dir-pagination-controls max-size="20"
+                                             direction-links="true"
+                                             boundary-links="true">
+                    </dir-pagination-controls>
+
                 </div>
                 <div class="col-md-3" ui-view="popisknjiga.edit">
 

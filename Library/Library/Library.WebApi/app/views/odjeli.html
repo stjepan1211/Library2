@@ -22,8 +22,8 @@
                         <tr>
                             <th>Naziv</th>
                             <th>Broj knjiga</th>
-                            <th>Uredi</th>
-                            <th>Obriši</th>
+                            <th ng-show="isAdminAndLogged">Uredi</th>
+                            <th ng-show="isAdminAndLogged">Obriši</th>
                         </tr>
                         <tr ng-repeat="odjel in odjeli">
                             <td><a class="btn-link" ui-sref="odjeli.knjige({Id: odjel.ID})">{{odjel.Naziv}}</a></td>

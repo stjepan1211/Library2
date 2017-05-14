@@ -9,3 +9,14 @@ E:\Visual studio projekti\Library\Library\Library.Service.Common\bin\Debug\Libra
 E:\Visual studio projekti\Library\Library\Library.Service.Common\obj\Debug\Library.Service.Common.csprojResolveAssemblyReference.cache
 E:\Visual studio projekti\Library\Library\Library.Service.Common\obj\Debug\Library.Service.Common.dll
 E:\Visual studio projekti\Library\Library\Library.Service.Common\obj\Debug\Library.Service.Common.pdb
+C:\Users\Josip\Desktop\Library2\Library\Library\Library.Service.Common\bin\Debug\Library.Service.Common.dll
+C:\Users\Josip\Desktop\Library2\Library\Library\Library.Service.Common\bin\Debug\Library.Service.Common.pdb
+C:\Users\Josip\Desktop\Library2\Library\Library\Library.Service.Common\bin\Debug\Library.DAL.Common.dll
+C:\Users\Josip\Desktop\Library2\Library\Library\Library.Service.Common\bin\Debug\Library.DAL.dll
+C:\Users\Josip\Desktop\Library2\Library\Library\Library.Service.Common\bin\Debug\EntityFramework.dll
+C:\Users\Josip\Desktop\Library2\Library\Library\Library.Service.Common\bin\Debug\Library.DAL.Common.pdb
+C:\Users\Josip\Desktop\Library2\Library\Library\Library.Service.Common\bin\Debug\Library.DAL.pdb
+C:\Users\Josip\Desktop\Library2\Library\Library\Library.Service.Common\bin\Debug\EntityFramework.xml
+C:\Users\Josip\Desktop\Library2\Library\Library\Library.Service.Common\obj\Debug\Library.Service.Common.csprojResolveAssemblyReference.cache
+C:\Users\Josip\Desktop\Library2\Library\Library\Library.Service.Common\obj\Debug\Library.Service.Common.dll
+C:\Users\Josip\Desktop\Library2\Library\Library\Library.Service.Common\obj\Debug\Library.Service.Common.pdb
