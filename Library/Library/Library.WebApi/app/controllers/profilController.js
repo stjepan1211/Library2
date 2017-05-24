@@ -21,8 +21,7 @@ function profilController($scope, $http, $stateParams, $window, $state, Authenti
                
                 for (var i = 0; i < response.data.length; i++) {
                     
-                    if (response.data[i].Vracena == false)
-                        arrPromises.push($http.get('/api/Knjiga/Get?id=' + response.data[i].KnjigaID))
+                    arrPromises.push($http.get('/api/Knjiga/Get?id=' + response.data[i].KnjigaID))
                 }
 
 
@@ -33,7 +32,7 @@ function profilController($scope, $http, $stateParams, $window, $state, Authenti
                         var knjiga = ret[i].data;
                         knjiga['PosudenaDatum'] = response.data[i].PosudenaDatum;
                         knjiga['IstekRokaDatum'] = response.data[i].IstekRokaDatum;
-
+                        knjiga['vracena'] = response.data[i].Vracena;
                         
                         var oneDay = 24 * 60 * 60 * 1000; // hours*minutes*seconds*milliseconds
                         var firstDate = new Date();
@@ -47,12 +46,11 @@ function profilController($scope, $http, $stateParams, $window, $state, Authenti
                         knjiga['Zakasnina'] = diffDays
                         knjiga['PosudenaKnjigaID'] = response.data[i].ID;
                         
-
-                        knjige.push(knjiga)
+                        if (response.data[i].Vracena == false)
+                            knjige.push(knjiga)
                     }
 
                     $scope.posudeneKnjige = knjige;
-                    console.log(knjige);
                 });
 
                
@@ -72,9 +70,39 @@ function profilController($scope, $http, $stateParams, $window, $state, Authenti
 
     $scope.vrati = function (knjigaID, posudenaKnjigaId) {
 
-        // TODO: set vraceno to true
-        // TODO: +1 book 
-        return null;
+        // set vraceno to true
+        //Update request
+        $http.put('/api/PosudenaKnjiga/UpdateToReturned?id=' + posudenaKnjigaId).then(
+           function (response) {
+               $scope.error = false;
+               $scope.response = response.data;
+               console.log("Update to returned:");
+               console.log(response.data);
+
+               //+1 book 
+               $http.put('/api/Knjiga/UpdatePlusOne?id=' + knjigaID).then(
+              function (response) {
+                  $scope.error = false;
+
+                  location.reload(true);
+              },
+              function (data) {
+                  //Errors
+                  $scope.error = true;
+              })
+
+           },
+           function (data) {
+               //Errors
+               console.log("Error");
+               console.log("Error message: " + data.errorMessage);
+               $scope.error = true;
+               $scope.errorMessage = data.errorMessage;
+           })
+
+
+
+
     }
 
 

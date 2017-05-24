@@ -144,5 +144,30 @@ namespace Library.WebApi.Controllers
 
 
 
+        [HttpPut]
+        [Route("UpdateToReturned")]
+        public async Task<HttpResponseMessage> UpdateToReturned(Guid id)
+        {
+            try
+            {
+
+                if (id == null)
+                    return Request.CreateErrorResponse(HttpStatusCode.BadRequest, "Neispravan unos.");
+
+                PosudenaKnjiga toBeUpdated = await _posudenaKnjigaService.Get(id);
+
+                toBeUpdated.Vracena = true;
+
+                var response = await _posudenaKnjigaService.Update(toBeUpdated);
+                return Request.CreateResponse(HttpStatusCode.OK, response);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex);
+            }
+        }
+
+
+
     }
 }

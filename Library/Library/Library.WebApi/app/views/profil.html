@@ -7,37 +7,57 @@
 
         <h3>Popis posuđenih knjiga</h3>
 
-        <table class="table table-responsive table-striped">
-            <tr>
-                <th ng-click="sort('Naslov')">
-                    Naslov
-                    <span class="glyphicon sort-icon" ng-show="sortKey=='Naslov'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
-                </th>
-                <th ng-click="sort('Autor')">
-                    Autor
-                    <span class="glyphicon sort-icon" ng-show="sortKey=='Autor'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
-                </th>
-                <th>
-                    Datum posudbe
-                    <span class="glyphicon sort-icon" ng-show="sortKey=='PosudenaDatum'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
-                </th>
-                <th>
-                    Istek roka                   
-                </th>
-                <th>
-                    Zakasnina
-                </th>
-                <th>Vrati</th>
-            </tr>
-            <tr dir-paginate="knjiga in posudeneKnjige|orderBy:sortKey:reverse|filter:search|itemsPerPage:10">
-                <td>{{knjiga.Naslov}}</td>
-                <td>{{knjiga.Autor}}</td>
-                <td>{{knjiga.PosudenaDatum | date:date:'yyyy-MM-dd'}}</td>
-                <th>{{knjiga.IstekRokaDatum | date:date:'yyyy-MM-dd'}}</th>
-                <th>{{knjiga.Zakasnina}}</th>
-                <td><a class="btn btn-sm btn-default" ng-click="vrati(knjiga.ID, knjiga.PosudenaKnjigaID)">Vrati</a></td>
-            </tr>
-        </table>
+        <div class="row">
+
+            <div class="col-md-9">
+
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label>Pretraži:</label>
+                        <input type="text" ng-model="search" class="form-control" placeholder="Pretraži">
+                    </div>
+                </form>
+
+                <table class="table table-responsive table-striped">
+                    <tr>
+                        <th ng-click="sort('Naslov')">
+                            Naslov
+                            <span class="glyphicon sort-icon" ng-show="sortKey=='Naslov'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+                        </th>
+                        <th ng-click="sort('Autor')">
+                            Autor
+                            <span class="glyphicon sort-icon" ng-show="sortKey=='Autor'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+                        </th>
+                        <th>
+                            Datum posudbe
+                            <span class="glyphicon sort-icon" ng-show="sortKey=='PosudenaDatum'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+                        </th>
+                        <th>
+                            Istek roka
+                        </th>
+                        <th>
+                            Zakasnina
+                        </th>
+                        <th>Vrati</th>
+                    </tr>
+                    <tr dir-paginate="knjiga in posudeneKnjige|orderBy:sortKey:reverse|filter:search|itemsPerPage:10">
+                        <td>{{knjiga.Naslov}}</td>
+                        <td>{{knjiga.Autor}}</td>
+                        <td>{{knjiga.PosudenaDatum | date:date:'yyyy-MM-dd'}}</td>
+                        <th>{{knjiga.IstekRokaDatum | date:date:'yyyy-MM-dd'}}</th>
+                        <th>{{knjiga.Zakasnina}}</th>
+                        <td><a class="btn btn-sm btn-default" ng-click="vrati(knjiga.ID, knjiga.PosudenaKnjigaID)">Vrati</a></td>
+                    </tr>
+                </table>
+
+                <dir-pagination-controls max-size="10"
+                                         direction-links="true"
+                                         boundary-links="true">
+                </dir-pagination-controls>
+
+            </div>
+
+        </div>
 
     </div>
 

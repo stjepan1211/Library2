@@ -143,5 +143,35 @@ namespace Library.WebApi.Controllers
                 return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex);
             }
         }
+
+
+
+        [HttpPut]
+        [Route("UpdatePlusOne")]
+        public async Task<HttpResponseMessage> UpdatePlusOne(Guid id)
+        {
+            try
+            {
+
+                if (id == null)
+                    return Request.CreateErrorResponse(HttpStatusCode.BadRequest, "Neispravan unos.");
+
+                Knjiga toBeUpdated = await _knjigaService.Get(id);
+
+                toBeUpdated.UkupanBroj++;
+
+                var response = await _knjigaService.Update(toBeUpdated);
+                return Request.CreateResponse(HttpStatusCode.OK, response);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex);
+            }
+        }
+
+
+
+
+
     }
 }

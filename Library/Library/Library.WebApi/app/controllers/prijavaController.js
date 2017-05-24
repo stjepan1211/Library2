@@ -5,6 +5,7 @@ function prijavaController($scope, $http, $stateParams, $window, $state, Authent
 
     provjeriJeLiPrijavljen();
     isAdmin();
+    isKorisnik();
 
     function provjeriJeLiPrijavljen() {
         AuthenticationService.CheckIsStoraged();
@@ -73,5 +74,15 @@ function prijavaController($scope, $http, $stateParams, $window, $state, Authent
         else {
             $scope.isAdmin = false;
         }
-    }
+     }
+
+     function isKorisnik() {
+         if (AuthenticationService.GetRole() == 'Korisnik') {
+             $scope.isKorisnik = true;
+         }
+         else {
+             $scope.isKorisnik = false;
+         }
+     }
+
 }
