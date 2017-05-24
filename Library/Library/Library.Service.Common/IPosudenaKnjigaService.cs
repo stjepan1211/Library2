@@ -14,5 +14,6 @@ namespace Library.Service.Common
         Task<int> Update(PosudenaKnjiga entity);
         Task<int> Delete(Guid id);
         Task<IEnumerable<PosudenaKnjiga>> GetAll();
+        Task<IEnumerable<PosudenaKnjiga>> GetByUserId(Guid id);
     }
 }

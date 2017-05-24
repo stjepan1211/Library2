@@ -225,6 +225,7 @@
     <Content Include="app\controllers\odjeliController.js" />
     <Content Include="app\controllers\popisknjigaController.js" />
     <Content Include="app\controllers\prijavaController.js" />
+    <Content Include="app\controllers\profilController.js" />
     <Content Include="app\controllers\registracijaController.js" />
     <Content Include="app\controllers\registriraniKorisnici.js" />
     <Content Include="app\controllers\registriraniKorisniciController.js" />
@@ -244,6 +245,7 @@
     <Content Include="app\views\popisknjiga.edit.html" />
     <Content Include="app\views\popisknjiga.html" />
     <Content Include="app\views\prijava.html" />
+    <Content Include="app\views\profil.html" />
     <Content Include="app\views\registracija.html" />
     <Content Include="app\views\registriranikorisnici.html" />
     <Content Include="Areas\HelpPage\HelpPage.css" />

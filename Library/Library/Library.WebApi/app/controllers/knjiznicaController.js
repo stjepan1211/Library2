@@ -1,4 +1,4 @@
-﻿//Define tournaments controller
+﻿//Define controller
 angular.module('LibraryModule').controller('knjiznicaController', ['$scope', '$http', '$stateParams', '$window', '$state', 'AuthenticationService', 'LibraryService', knjiznicaController]);
 
 function knjiznicaController($scope, $http, $stateParams, $window, $state, AuthenticationService, LibraryService) {

@@ -2,6 +2,7 @@
 using Library.Service.Common;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -77,5 +78,21 @@ namespace Library.Service
                 throw ex;
             }
         }
+
+
+        //GetByUserId
+        public async Task<IEnumerable<PosudenaKnjiga>> GetByUserId(Guid id)
+        {
+            try
+            {
+                var response = await _generic.GetQueryable<PosudenaKnjiga>().Where(k => k.KorisnikID == id).ToListAsync();
+                return response;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
     }
 }

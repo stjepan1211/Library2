@@ -164,13 +164,15 @@ namespace Library.WebApi.Controllers
                 }
                 else
                 {
+                    //Get ID
                     var tokenDuration = DateTime.UtcNow.AddMinutes(30);
                     var token = new TokenFactory(tokenDuration).GenerateToken();
                     var tokenResponse = new TokenResponse()
                     {
                         UserName = userCredentials.Username,
                         Token = token,
-                        Role = userToLogin.Uloga
+                        Role = userToLogin.Uloga,
+                        Id = userToLogin.ID.ToString()
                     };
 
                     return Request.CreateResponse(HttpStatusCode.OK, tokenResponse);

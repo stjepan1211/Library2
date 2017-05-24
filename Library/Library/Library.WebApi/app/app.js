@@ -126,7 +126,16 @@ LibraryModule.config(function ($stateProvider, $urlRouterProvider, localStorageS
                 }
             }
         })
-
+        //Root view
+        //Root view
+        .state('profil', {
+            url: '/profil',
+            views: {
+                "root": {
+                    templateUrl: 'app/views/profil.html',
+                }
+            }
+        })
 
 
 });

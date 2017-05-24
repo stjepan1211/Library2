@@ -12,6 +12,9 @@ function popisknjigaController($scope, $http, $stateParams, $window, $state, Aut
 
         $scope.isAdminAndLogged = (AuthenticationService.GetRole() == 'Admin')
            && AuthenticationService.GetRole() ? true : false;
+
+        $scope.isKorisnikAndLogged = (AuthenticationService.GetRole() == 'Korisnik')
+            && AuthenticationService.GetRole() ? true : false;
     }
 
     function checkIsKnjiznicaAdded() {
@@ -165,6 +168,67 @@ function popisknjigaController($scope, $http, $stateParams, $window, $state, Aut
         $scope.UkupanBrojEdit = null;
         $scope.OdjelEdit = null;
         location.reload(true);
+    }
+
+
+
+    $scope.posudiKnjigu = function (knjiga) {
+        if (knjiga == null)
+            return null;
+
+        var korisnikID = AuthenticationService.GetId();
+
+        var today = new Date();
+        var date30 = new Date();
+        date30.setMonth(date30.getMonth() + 1);
+
+
+        var posudenaKnjiga = {
+            KnjigaID: knjiga.ID,
+            KorisnikID: korisnikID,
+            PosudenaDatum: today,
+            IstekRokaDatum: date30,
+            Vracena: false
+        };
+
+
+        
+        //Post request
+        $http.post('/api/PosudenaKnjiga/Add', posudenaKnjiga).then(
+           function (response) {
+               $scope.error = false;
+               $scope.response = response.data;
+               // number of books --
+               knjiga.UkupanBroj--;
+
+               //Update request
+               $http.put('/api/Knjiga/Update', knjiga).then(
+                  function (response) {
+                      $scope.error = false;
+                      console.log(response.data);
+                      //location.reload(true);
+                      //Reload page to remove form
+                  },
+                  function (data) {
+                      //Errors
+                      console.log(data);
+                      console.log("Error");
+                      console.log("Error message: " + data.data.errorMessage);
+                      $scope.error = true;
+                      $scope.errorMessage = data.data.errorMessage;
+                  })
+
+           },
+           function (data) {
+               //Errors
+               console.log("Error");
+               console.log("Error message: " + data.data.Message);
+               $scope.error = true;
+               $scope.errorMessage = data.data.Message;
+               $window.alert(data.data.Message);
+           })
+
+
     }
 
 

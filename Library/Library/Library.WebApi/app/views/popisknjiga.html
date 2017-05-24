@@ -27,15 +27,15 @@
                     <table class="table table-responsive table-striped">
                         <tr>
                             <th ng-click="sort('Naslov')">
-                            Naslov
+                                Naslov
                                 <span class="glyphicon sort-icon" ng-show="sortKey=='Naslov'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
                             </th>
                             <th ng-click="sort('Autor')">
-                            Autor
+                                Autor
                                 <span class="glyphicon sort-icon" ng-show="sortKey=='Autor'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
                             </th>
                             <th ng-click="sort('UkupanBroj')">
-                            Ukupan broj
+                                Ukupan broj
                                 <span class="glyphicon sort-icon" ng-show="sortKey=='UkupanBroj'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
                             </th>
                             <th ng-show="isAdminAndLogged">Uredi</th>
@@ -45,7 +45,8 @@
                             <td>{{knjiga.Naslov}}</td>
                             <td>{{knjiga.Autor}}</td>
                             <td>{{knjiga.UkupanBroj}}</td>
-                            <td ng-show="isAdminAndLogged"><a class="btn btn-sm btn-default"  ui-sref="popisknjiga.edit({Id: knjiga.ID})">Uredi</a></td>
+                            <td ng-show="isKorisnikAndLogged"><a class="btn btn-sm btn-default" ng-click="posudiKnjigu(knjiga)">Posudi</a></td>
+                            <td ng-show="isAdminAndLogged"><a class="btn btn-sm btn-default" ui-sref="popisknjiga.edit({Id: knjiga.ID})">Uredi</a></td>
                             <td ng-show="isAdminAndLogged"><a class="btn btn-sm btn-default" ng-click="obrisiknjigu(knjiga.ID)">Obriši</a></td>
                         </tr>
                     </table>
@@ -60,7 +61,7 @@
 
                 </div>
             </div>
-            
+
         </div>
 
         <!--Errors-->
@@ -71,6 +72,6 @@
 
     </div>
 
-    
+
 
 </div>

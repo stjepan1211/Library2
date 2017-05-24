@@ -37,10 +37,10 @@ namespace Library.WebApi.Controllers
             }
         }
 
-        //GetAll
+        //Get
         [HttpGet]
         [Route("Get")]
-        public async Task<HttpResponseMessage> GetOdjel(Guid id)
+        public async Task<HttpResponseMessage> GetPosudenaKnjiga(Guid id)
         {
             try
             {
@@ -59,7 +59,7 @@ namespace Library.WebApi.Controllers
 
         [HttpPost]
         [Route("Add")]
-        public async Task<HttpResponseMessage> AddKnjiga(PosudenaKnjiga posudenaKnjiga)
+        public async Task<HttpResponseMessage> AddPosudenaKnjiga(PosudenaKnjiga posudenaKnjiga)
         {
             try
             {
@@ -103,7 +103,7 @@ namespace Library.WebApi.Controllers
 
         [HttpDelete]
         [Route("Delete")]
-        public async Task<HttpResponseMessage> DeleteKorisnik(Guid id)
+        public async Task<HttpResponseMessage> DeletePosudenaKnjiga(Guid id)
         {
             try
             {
@@ -119,5 +119,30 @@ namespace Library.WebApi.Controllers
                 return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex);
             }
         }
+
+
+
+        //GetByUserId
+        [HttpGet]
+        [Route("GetByUserId")]
+        public async Task<HttpResponseMessage> GetByUserId(Guid id)
+        {
+            try
+            {
+                if (id == null)
+                    return Request.CreateErrorResponse(HttpStatusCode.BadRequest, "Neispravan id.");
+
+                var posudenaKnjiga = await _posudenaKnjigaService.GetByUserId(id);
+
+                return Request.CreateResponse(HttpStatusCode.OK, posudenaKnjiga);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex);
+            }
+        }
+
+
+
     }
 }

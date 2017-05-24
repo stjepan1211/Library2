@@ -25,7 +25,8 @@ function Service($http, $localStorage, localStorageService) {
                 $localStorage.currentUser = {
                     UserName: response.data.UserName,
                     Token: response.data.Token,
-                    Role: response.data.Role
+                    Role: response.data.Role,
+                    Id: response.data.Id
                 };
                 // add jwt token to auth header for all requests made by the $http service
                 $http.defaults.headers.common.Authorization = 'Bearer ' + response.data.Token.TokenString;
