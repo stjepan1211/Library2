@@ -11,14 +11,12 @@
                     <th>Prezime</th>
                     <th>Email</th>
                     <th>Uloga</th>
-                    <th>Zakasnina</th>
                 </tr>
                 <tr ng-repeat="user in allUsers">
                     <td><a class="btn-link" ui-sref="registriranikorisnici.info({Id: user.ID})">{{user.Ime}}</a></td>
                     <td>{{user.Prezime}}</td>
                     <td>{{user.Email}}</td>
                     <td>{{user.Uloga}}</td>
-                    <td>{{user.Zakasnina}}</td>
                 </tr>
 
             </table>
