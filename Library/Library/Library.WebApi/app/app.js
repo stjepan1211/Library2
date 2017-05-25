@@ -108,6 +108,15 @@ LibraryModule.config(function ($stateProvider, $urlRouterProvider, localStorageS
                 }
             }
         })
+        //Child views
+        .state('registriranikorisnici.info', {
+            url: '/registriranikorisnici.info/:Id',
+            views: {
+                "info": {
+                    templateUrl: 'app/views/registriranikorisnici.info.html',
+                }
+            }
+        })
         //Root view
         .state('registracija', {
             url: '/registracija',
@@ -127,7 +136,6 @@ LibraryModule.config(function ($stateProvider, $urlRouterProvider, localStorageS
             }
         })
         //Root view
-        //Root view
         .state('profil', {
             url: '/profil',
             views: {
@@ -136,6 +144,7 @@ LibraryModule.config(function ($stateProvider, $urlRouterProvider, localStorageS
                 }
             }
         })
+
 
 
 });

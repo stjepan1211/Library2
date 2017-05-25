@@ -14,7 +14,7 @@
                     <th>Zakasnina</th>
                 </tr>
                 <tr ng-repeat="user in allUsers">
-                    <td>{{user.Ime}}</td>
+                    <td><a class="btn-link" ui-sref="registriranikorisnici.info({Id: user.ID})">{{user.Ime}}</a></td>
                     <td>{{user.Prezime}}</td>
                     <td>{{user.Email}}</td>
                     <td>{{user.Uloga}}</td>
@@ -22,6 +22,15 @@
                 </tr>
 
             </table>
+
+
+            <!--Info-->
+            <div ui-view="info" class="container">
+
+
+            </div>
+
+
         </div>
         
         <!--Errors-->

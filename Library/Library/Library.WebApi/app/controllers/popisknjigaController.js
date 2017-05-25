@@ -185,6 +185,8 @@ function popisknjigaController($scope, $http, $stateParams, $window, $state, Aut
 
         var posudenaKnjiga = {
             KnjigaID: knjiga.ID,
+            NazivKnjige: knjiga.Naslov,
+            Autor: knjiga.Autor,
             KorisnikID: korisnikID,
             PosudenaDatum: today,
             IstekRokaDatum: date30,

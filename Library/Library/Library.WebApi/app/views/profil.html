@@ -41,12 +41,12 @@
                         <th>Vrati</th>
                     </tr>
                     <tr dir-paginate="knjiga in posudeneKnjige|orderBy:sortKey:reverse|filter:search|itemsPerPage:10">
-                        <td>{{knjiga.Naslov}}</td>
+                        <td>{{knjiga.NazivKnjige}}</td>
                         <td>{{knjiga.Autor}}</td>
                         <td>{{knjiga.PosudenaDatum | date:date:'yyyy-MM-dd'}}</td>
                         <th>{{knjiga.IstekRokaDatum | date:date:'yyyy-MM-dd'}}</th>
                         <th>{{knjiga.Zakasnina}}</th>
-                        <td><a class="btn btn-sm btn-default" ng-click="vrati(knjiga.ID, knjiga.PosudenaKnjigaID)">Vrati</a></td>
+                        <td><a class="btn btn-sm btn-default" ng-click="vrati(knjiga.ID, knjiga.KnjigaID)">Vrati</a></td>
                     </tr>
                 </table>
 

@@ -1,0 +1,40 @@
+﻿<div ng-controller="registriranikorisniciController" ng-init="getUserInfo()">
+    <form class="form-inline">
+        <div class="form-group">
+            <label>Pretraži:</label>
+            <input type="text" ng-model="search" class="form-control" placeholder="Pretraži">
+        </div>
+    </form>
+    <table class="table table-responsive table-striped">
+        <tr>
+            <th ng-click="sort('Naslov')">
+                Naslov
+                <span class="glyphicon sort-icon" ng-show="sortKey=='Naslov'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+            </th>
+            <th ng-click="sort('Autor')">
+                Autor
+                <span class="glyphicon sort-icon" ng-show="sortKey=='Autor'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+            </th>
+            <th>
+                Datum posudbe                
+            </th>
+            <th>
+                Istek roka
+            </th>
+            <th>
+                Zakasnina
+            </th>
+        </tr>
+        <tr dir-paginate="knjiga in knjige|orderBy:sortKey:reverse|filter:search|itemsPerPage:3">
+            <td>{{knjiga.NazivKnjige}}</td>
+            <td>{{knjiga.Autor}}</td>
+            <td>{{knjiga.PosudenaDatum | date:date:'yyyy-MM-dd'}}</td>
+            <th>{{knjiga.IstekRokaDatum | date:date:'yyyy-MM-dd'}}</th>
+            <th>{{knjiga.Zakasnina}}</th>
+        </tr>
+    </table>
+    <dir-pagination-controls max-size="5"
+                             direction-links="true"
+                             boundary-links="true">
+    </dir-pagination-controls>
+</div>
